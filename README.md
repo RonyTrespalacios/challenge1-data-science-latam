@@ -157,8 +157,7 @@ Estos insights sugieren áreas potenciales de mejora o investigación adicional 
 
 ## 🧑‍💻 Autor
 
-- Rony Trespalacios
-  - [Tu Perfil de GitHub](https://github.com/RonyTrespalacios)
+- [Rony Trespalacios](https://github.com/RonyTrespalacios)
 
 ---
 

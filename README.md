@@ -55,25 +55,25 @@ Antes de comenzar, asegúrate de tener instalados:
 
 3.  **Activar el Entorno Virtual:**
 
-        Ahora, activa el entorno virtual que acabas de crear.
+    Ahora, activa el entorno virtual que acabas de crear.
 
-        - En **Windows Command Prompt** o **PowerShell**:
+    - En **Windows Command Prompt** o **PowerShell**:
 
 > [!IMPORTANT]
 > Para ejecutar este comando en **PowerShell**, asegúrate de que la política de ejecución permita la ejecución de scripts. Puedes cambiarla temporalmente con:
 
-        ```powershell
-        Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-        ```
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    ```
 
-        ```powershell
-        .\.venv\Scripts\activate
-        ```
+    ```powershell
+    .\.venv\Scripts\activate
+    ```
 
-        - En **Git Bash**, **WSL**, **macOS** o **Linux**:
-          ```bash
-          source .venv/bin/activate
-          ```
+    - En **Git Bash**, **WSL**, **macOS** o **Linux**:
+        ```bash
+        source .venv/bin/activate
+        ```
 
 > [!TIP]
 > Sabrás que el entorno está activo porque verás `(.venv)` al principio de tu prompt en la terminal.

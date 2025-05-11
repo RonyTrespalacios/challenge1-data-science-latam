@@ -36,7 +36,10 @@ Antes de comenzar, asegúrate de tener instalados:
     Abre tu terminal o línea de comandos y descarga el código del proyecto:
 
     ```bash
-    git clone [https://github.com/RonyTrespalacios/challenge1-data-science-latam.git](https://github.com/RonyTrespalacios/challenge1-data-science-latam.git)
+    git clone https://github.com/RonyTrespalacios/challenge1-data-science-latam.git
+    ```
+
+    ```bash
     cd challenge1-data-science-latam
     ```
 

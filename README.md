@@ -59,7 +59,7 @@ Antes de comenzar, asegúrate de tener instalados:
 
     - En **Windows Command Prompt** o **PowerShell**:
       ```powershell
-      .venv\Scripts\activate
+      .\.venv\Scripts\activate
       ```
     - En **Git Bash**, **WSL**, **macOS** o **Linux**:
       ```bash

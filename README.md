@@ -60,15 +60,15 @@ Antes de comenzar, asegúrate de tener instalados:
     - En **Windows Command Prompt** o **PowerShell**:
 
 > [!IMPORTANT]
-> Para ejecutar este comando en **PowerShell**, asegúrate de que la política de ejecución permita la ejecución de scripts. Puedes cambiarla temporalmente con:
+> Para ejecutar este comando en **PowerShell**, asegúrate de que la política de ejecución permita la ejecución de scripts. Puedes cambiarla temporalmente con `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
-    ```powershell
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-    ```
+        ```bash
+        Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+        ```
 
-    ```powershell
-    .\.venv\Scripts\activate
-    ```
+        ```bash
+        .\.venv\Scripts\activate
+        ```
 
     - En **Git Bash**, **WSL**, **macOS** o **Linux**:
         ```bash

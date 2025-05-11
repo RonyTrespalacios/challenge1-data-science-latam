@@ -20,7 +20,7 @@ Antes de comenzar, asegúrate de tener instalados:
 ### 🛠️ Herramienta Adicional Recomendada
 
 > [!TIP]
-> Para una experiencia más rica en la exploración de datos dentro de VS Code, ¡te sugerimos encarecidamente instalar la extensión **Data Wrangler**!
+> Para una experiencia más rica en la exploración de datos dentro de VS Code, ¡te sugiero encarecidamente instalar la extensión **Data Wrangler**!
 >
 > Esta extensión, también de Microsoft, es fantástica para:
 >
@@ -112,7 +112,7 @@ Antes de comenzar, asegúrate de tener instalados:
 
     - En el explorador de archivos de VS Code, navega hasta el archivo `AluraStoreLatam.ipynb` y haz clic para abrirlo.
     - VS Code abrirá el notebook en su editor integrado.
-    - Verifica en la esquina superior derecha del notebook que el kernel seleccionado sea el de tu entorno virtual (debería decir algo como `Python 3.x (.venv)`). Si no es así, haz clic en él para cambiarlo.
+    - Verifica en la esquina superior derecha del notebook que el kernel seleccionado sea el de tu entorno virtual (debería decir algo como `Python 3.12 (.venv)`). Si no es así, haz clic en él para cambiarlo.
     - Ahora puedes ejecutar cada celda de código individualmente haciendo clic en el ícono ▶️ a la izquierda de la celda, o usar los controles en la parte superior del notebook para ejecutar todas las celdas.
 
 > [!NOTE]

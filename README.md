@@ -55,19 +55,28 @@ Antes de comenzar, asegúrate de tener instalados:
 
 3.  **Activar el Entorno Virtual:**
 
-    Ahora, activa el entorno virtual que acabas de crear.
+        Ahora, activa el entorno virtual que acabas de crear.
 
-    - En **Windows Command Prompt** o **PowerShell**:
-      ```powershell
-      .\.venv\Scripts\activate
-      ```
-    - En **Git Bash**, **WSL**, **macOS** o **Linux**:
-      ```bash
-      source .venv/bin/activate
-      ```
+        - En **Windows Command Prompt** o **PowerShell**:
 
-    > [!TIP]
-    > Sabrás que el entorno está activo porque verás `(.venv)` al principio de tu prompt en la terminal.
+> [!IMPORTANT]
+> Para ejecutar este comando en **PowerShell**, asegúrate de que la política de ejecución permita la ejecución de scripts. Puedes cambiarla temporalmente con:
+
+        ```powershell
+        Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+        ```
+
+        ```powershell
+        .\.venv\Scripts\activate
+        ```
+
+        - En **Git Bash**, **WSL**, **macOS** o **Linux**:
+          ```bash
+          source .venv/bin/activate
+          ```
+
+> [!TIP]
+> Sabrás que el entorno está activo porque verás `(.venv)` al principio de tu prompt en la terminal.
 
 4.  **Instalar las Dependencias:**
 
@@ -77,15 +86,19 @@ Antes de comenzar, asegúrate de tener instalados:
     pip install -r requirements.txt
     ```
 
-    > [!NOTE]
-    > Este comando lee el archivo `requirements.txt` (que debe estar en la raíz del repositorio) e instala todas las librerías listadas en él (como `pandas`, `plotly`, `openpyxl`, `ipykernel`).
+> [!NOTE]
+> Este comando lee el archivo `requirements.txt` e instala todas las librerías listadas en él.
 
 5.  **Abrir el Proyecto en VS Code:**
 
     Si no lo tienes abierto, inicia VS Code y abre la carpeta del proyecto que acabas de clonar (`challenge1-data-science-latam`).
 
-    > [!TIP]
-    > Si ya estás en la terminal dentro de la carpeta del proyecto y VS Code está agregado a tu PATH, puedes simplemente ejecutar `code .` para abrir el proyecto rápidamente.
+    ```bash
+    code .
+    ```
+
+> [!TIP]
+> Si ya estás en la terminal dentro de la carpeta del proyecto y VS Code está agregado a tu PATH, puedes simplemente ejecutar `code .` para abrir el proyecto rápidamente.
 
 6.  **Seleccionar el Intérprete de Python del Entorno Virtual:**
 
@@ -95,8 +108,8 @@ Antes de comenzar, asegúrate de tener instalados:
     - Escribe `Python: Select Interpreter` y selecciona esa opción.
     - VS Code buscará intérpretes en tu proyecto. Busca y selecciona el intérprete que se encuentra dentro de la carpeta `.venv`. Generalmente se verá algo como `./.venv/bin/python` o `.\.venv\Scripts\python.exe`, posiblemente con el nombre `(.venv)` o `Python (...) .venv`.
 
-    > [!IMPORTANT]
-    > Si no seleccionas el intérprete correcto, VS Code podría intentar usar la instalación global de Python y no encontrará las librerías del proyecto, lo que causará errores al ejecutar el notebook.
+> [!IMPORTANT]
+> Si no seleccionas el intérprete correcto, VS Code podría intentar usar la instalación global de Python y no encontrará las librerías del proyecto, lo que causará errores al ejecutar el notebook.
 
 7.  **Abrir y Ejecutar el Notebook:**
 
@@ -105,8 +118,8 @@ Antes de comenzar, asegúrate de tener instalados:
     - Verifica en la esquina superior derecha del notebook que el kernel seleccionado sea el de tu entorno virtual (debería decir algo como `Python 3.x (.venv)`). Si no es así, haz clic en él para cambiarlo.
     - Ahora puedes ejecutar cada celda de código individualmente haciendo clic en el ícono ▶️ a la izquierda de la celda, o usar los controles en la parte superior del notebook para ejecutar todas las celdas.
 
-    > [!NOTE]
-    > El archivo `.ipynb` contiene tanto el código como los resultados. Puedes limpiar los resultados si quieres antes de ejecutarlo, o simplemente ejecutar las celdas secuencialmente.
+> [!NOTE]
+> El archivo `.ipynb` contiene tanto el código como los resultados. Puedes limpiar los resultados si quieres antes de ejecutarlo, o simplemente ejecutar las celdas secuencialmente.
 
 8.  **Desactivar el Entorno Virtual:**
 
